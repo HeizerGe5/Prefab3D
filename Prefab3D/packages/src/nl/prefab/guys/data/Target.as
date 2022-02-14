@@ -1,0 +1,1 @@
+﻿//Prefab3D. www.closier.nl/prefab .  Fabrice Closier 2012package nl.prefab.guys.data{	public class Target{		 		 public var object:Object;		 public var originalSettings:Vector.<Object>;	}}

@@ -1,0 +1,1 @@
+﻿package nl.prefab.guys.data{	public class GuysVersion {		 		public static const VERSION:String = "0";		public static const REVISION:String = "23";	}}

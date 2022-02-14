@@ -1,0 +1,178 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/3.5">
+<!-- AIR Application Descriptor File. See http://www.adobe.com/go/learn_air_1.0_application_descriptor_en. -->
+	<id>Prefab3D</id>
+	<versionNumber>2.143</versionNumber>
+	<filename>Prefab3D</filename>
+	<description>Realtime 3D project editor for Away3D and more</description>
+	<!-- To localize the description, use the following format for the description element.
+	<description>
+		<text xml:lang="en">English App description goes here</text>
+		<text xml:lang="fr">French App description goes here</text>
+		<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+	-->
+	<name>Prefab3D</name>
+	<!-- To localize the name, use the following format for the name element.
+	<name>
+		<text xml:lang="en">English App name goes here</text>
+		<text xml:lang="fr">French App name goes here</text>
+		<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+	-->
+	<copyright>Fabrice Closier, 2009-2013</copyright>
+	<initialWindow>
+		<content>Prefab3D.swf</content>
+		<systemChrome>standard</systemChrome>
+		<transparent>false</transparent>
+		<visible>true</visible>
+		<fullScreen>true</fullScreen>
+		<!-- 
+		<autoOrients>false</autoOrients>
+		<aspectRatio>portrait</aspectRatio>
+		-->
+		<renderMode>direct</renderMode>
+		<maximizable>true</maximizable>
+		<minimizable>true</minimizable>
+		<resizable>true</resizable>
+		<depthAndStencil>true</depthAndStencil>
+	</initialWindow>
+	<customUpdateUI>false</customUpdateUI>
+	<allowBrowserInvocation>false</allowBrowserInvocation>
+	
+	<icon>
+	   <image16x16>icons/pict16.png</image16x16>
+	   <image32x32>icons/pict32.png</image32x32>
+	   <image48x48>icons/pict48.png</image48x48>
+	   <image128x128>icons/pict128.png</image128x128>
+	</icon>
+	
+    <fileTypes>
+        <fileType>
+            <name>awd</name>
+            <extension>awd</extension>
+            <description>Away3D data format</description>
+            <contentType>text/plain</contentType>
+            <icon>
+                <image128x128>icons/fileawd128.png</image128x128>
+                <image48x48>icons/fileawd48.png</image48x48>
+                <image32x32>icons/fileawd32.png</image32x32>
+                <image16x16>icons/fileawd16.png</image16x16>
+            </icon>
+        </fileType>
+        
+        <fileType>
+            <name>awp</name>
+            <extension>awp</extension>
+            <description>Prefab3D file</description>
+            <contentType>text/plain</contentType>
+            <icon>
+                <image128x128>icons/fileawp128.png</image128x128>
+                <image48x48>icons/fileawp48.png</image48x48>
+                <image32x32>icons/fileawp32.png</image32x32>
+                <image16x16>icons/fileawp16.png</image16x16>
+            </icon>
+        </fileType>
+        
+        <fileType>
+            <name>asd</name>
+            <extension>asd</extension>
+            <description>Prefab3D Actionscript Data file</description>
+            <contentType>text/plain</contentType>
+            <icon>
+                <image128x128>icons/fileasd128.png</image128x128>
+                <image48x48>icons/fileasd48.png</image48x48>
+                <image32x32>icons/fileasd32.png</image32x32>
+                <image16x16>icons/fileasd16.png</image16x16>
+            </icon>
+        </fileType>
+        
+        <fileType>
+            <name>pfb</name>
+            <extension>pfb</extension>
+            <description>Prefab3D format file</description>
+            <contentType>text/plain</contentType>
+            <icon>
+                <image128x128>icons/proj128.png</image128x128>
+                <image48x48>icons/proj48.png</image48x48>
+                <image32x32>icons/proj32.png</image32x32>
+                <image16x16>icons/proj16.png</image16x16>
+            </icon>
+        </fileType>
+        
+        <fileType>
+            <name>md2</name>
+            <extension>md2</extension>
+            <description>md2 file</description>
+            <contentType>text/plain</contentType>
+            <icon></icon>
+        </fileType>
+        <fileType>
+            <name>dxf</name>
+            <extension>dxf</extension>
+            <description>dxf file</description>
+            <contentType>text/plain</contentType>
+            <icon></icon>
+        </fileType>
+        <fileType>
+            <name>md5mesh</name>
+            <extension>md5mesh</extension>
+            <description>md5 file</description>
+            <contentType>text/plain</contentType>
+            <icon></icon>
+        </fileType>
+         <fileType>
+            <name>md5anim</name>
+            <extension>md5anim</extension>
+            <description>md5 file</description>
+            <contentType>text/plain</contentType>
+            <icon></icon>
+        </fileType>
+        <fileType>
+            <name>obj</name>
+            <extension>obj</extension>
+            <description>obj wavefront file</description>
+            <contentType>text/plain</contentType>
+            <icon></icon>
+        </fileType>
+        <fileType>
+            <name>max3ds</name>
+            <extension>3ds</extension>
+            <description>max 3ds file</description>
+            <contentType>text/plain</contentType>
+            <icon></icon>
+        </fileType>
+        <fileType>
+            <name>ac</name>
+            <extension>ac</extension>
+            <description>AC3D file</description>
+            <contentType>text/plain</contentType>
+            <icon></icon>
+        </fileType>
+        <fileType>
+            <name>dae</name>
+            <extension>dae</extension>
+            <description>Collada file</description>
+            <contentType>text/plain</contentType>
+            <icon></icon>
+        </fileType>
+        <fileType>
+            <name>sour</name>
+            <extension>sour</extension>
+            <description>sour file</description>
+            <contentType>text/plain</contentType>
+            <icon></icon>
+        </fileType>
+	<fileType>
+            <name>stl</name>
+            <extension>stl</extension>
+            <description>stl file for 3d printers</description>
+            <contentType>text/plain</contentType>
+            <icon></icon>
+        </fileType>
+
+
+                
+    </fileTypes>    
+    <supportedProfiles>extendedDesktop desktop</supportedProfiles>
+</application>
